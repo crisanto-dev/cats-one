@@ -1,0 +1,15 @@
+.card {
+    @apply p-3;
+}
+
+.card .card-header.icon {
+    @apply text-6xl;
+    @apply  py-6;
+}
+.card .card-body h5{
+    @apply my-3;
+    @apply font-semibold text-lg;
+}
+.section-1 .card {
+    @apply text-center;
+}

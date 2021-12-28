@@ -1,0 +1,16 @@
+@import "./components/navbar.css";
+@import "./components/social-network.css";
+@import "./components/jumbotron.css";
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/testimonials.css";
+@import "./components/section-1.css";
+@import "./components/footer.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-slate-700 font-serif;
+}

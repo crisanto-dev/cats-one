@@ -1,0 +1,18 @@
+.social-network-bars {
+    @apply flex justify-between;
+    @apply p-3 md:mx-24 lg:mx-32 my-3;
+    @apply border-b-2;
+}
+
+.social-network-bars ul {
+    @apply flex;
+}
+
+.social-network-bars ul li a {
+    @apply m-1 p-3;
+    @apply hover:bg-sky-100;
+    @apply rounded;
+}
+.social-network-bars .contact ul li {
+    @apply mx-3;
+}

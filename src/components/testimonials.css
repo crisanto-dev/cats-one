@@ -1,0 +1,76 @@
+.testimonials {
+    @apply my-12;
+    @apply container md:container lg:container xl:container mx-auto;
+}
+.testimonials .header {
+    @apply py-6 mb-12;
+}
+.testimonials .header h5 {
+    @apply font-semibold text-xl md:text-2xl text-center;
+    @apply p-3;
+}
+
+.testimonials .body .block {
+    @apply p-3;
+    @apply flex flex-wrap;
+}
+
+.testimonials .body .block .img {
+    @apply w-full md:w-1/2;
+}
+
+.testimonials .body .block .text {
+    @apply text-lg text-slate-500;
+}
+.testimonials .body .block .text blockquote {
+    @apply italic;
+    @apply p-3;
+    @apply border-l-2 border-sky-500;
+    @apply rounded;
+}
+.testimonials .body .block .img figure img {
+    @apply max-w-sm mx-auto md:mr-0 md:ml-auto;
+    @apply rounded-full;
+    @apply z-20;
+    @apply relative;
+    @apply border-4 border-white;
+}
+
+.testimonials .body .block .img figure::before {
+    content: "M";
+    @apply p-44;
+    @apply relative left-44 top-32;
+    /* @apply w-24 h-24; */
+    @apply bg-sky-500;
+    @apply rounded-full;
+    @apply z-10;
+    @apply shadow-lg;
+    @apply invisible md:visible;
+    /* @apply block; */
+}
+.testimonials .body .block {
+    @apply my-3 md:my-12;
+}
+.testimonials .body .block .img figure::after {
+    content: "M";
+    @apply p-32;
+    @apply relative left-32 bottom-32;
+    /* @apply w-24 h-24; */
+    @apply bg-sky-400;
+    @apply rounded-full;
+    @apply z-0;
+    @apply shadow-lg;
+    @apply invisible md:visible;
+
+}
+
+.testimonials .body .block .text {
+    @apply w-full md:w-1/2;
+}
+
+.testimonials .body .block .text h5 {
+    @apply relative md:top-44;
+    @apply z-30;
+    @apply text-sky-500 text-3xl font-semibold;
+}
+

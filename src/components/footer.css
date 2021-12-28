@@ -1,0 +1,40 @@
+footer.footer {
+    @apply py-12;
+    @apply bg-gradient-to-l from-blue-500 to-sky-500;
+    @apply text-slate-200;
+}
+
+.footer .header h5 {
+    @apply font-semibold text-3xl text-white;
+    @apply my-6;
+}
+
+.footer .header, .footer .body, .footer .foot {
+    @apply container md:container lg:container xl:container mx-auto;
+    @apply px-3 md:px-6 lg:px-12;
+}
+.footer .body {
+    @apply flex flex-wrap;
+}
+
+.footer .body .block {
+    @apply w-full md:w-1/2 lg:w-1/3;
+}
+
+.footer .body .block h6 {
+    @apply text-lg font-medium;
+    @apply uppercase;
+    @apply mb-3 ml-3;
+}
+
+.footer .body .block ul li{
+    @apply py-2 px-3 hover:bg-sky-400;
+    @apply rounded;
+}
+
+
+.footer .foot {
+    @apply mt-6 py-6;
+    @apply border-t;
+    @apply text-white;
+}

@@ -1,0 +1,9 @@
+.btn {
+    @apply px-6 py-3;
+    @apply rounded-sm shadow-sm;
+}
+
+.btn.primary {
+    @apply bg-sky-500;
+    @apply text-white;
+}

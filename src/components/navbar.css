@@ -1,0 +1,45 @@
+.navbar {
+    @apply flex flex-wrap justify-between md:items-center;
+    /* @apply bg-gradient-to-r from-green-500 to-lime-600; */
+    @apply shadow-sm;
+    /* @apply text-white; */
+    @apply p-3 md:px-24 lg:px-32;
+}
+
+.burguer {
+    @apply block md:hidden;
+    @apply w-8 h-8;
+    @apply text-center align-middle;
+    @apply rounded pb-1;
+}
+.menu {
+    @apply w-full md:w-1/2;
+    @apply hidden md:block;
+
+}
+.menu ul {
+    @apply block md:flex md:flex-wrap md:flex-nowrap md:justify-end;
+}
+.menu ul li a {
+    @apply px-6 py-3 mx-1;
+    @apply hover:bg-sky-100/50;
+    @apply border-b-2 border-transparent;
+    @apply hover:shadow-sm hover:rounded hover:border-sky-500;
+
+}
+.menu.active {
+    @apply block !important;
+}
+.menu.active ul {
+    @apply py-3;
+}
+.menu.active ul li a {
+    @apply block px-6 py-3;
+}
+.brand {
+    @apply text-2xl font-semibold;
+}
+
+.burguer.active {
+    @apply bg-sky-100;
+}
